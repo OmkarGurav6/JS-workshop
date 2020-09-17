@@ -39,7 +39,7 @@ function valid() {
 
 	if( last_name.search(/[~\!\@\#\$\%\^\&\*\(\)\-\_\=\+\;\:\'\"\,\<\.\>\/\?]/) != -1)
 	{
-         document.getElementById('firstname').innerHTML = "*Special characters are not allowed.";
+         document.getElementById('lastname').innerHTML = "*Special characters are not allowed.";
          return false;
 	}
 
